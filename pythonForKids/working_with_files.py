@@ -1,0 +1,6 @@
+test_file = open('pythonForKids/test.txt', 'w')
+test_file.write('This is my input')
+test_file.close()
+test_file = open('pythonForKids/test.txt')
+text = test_file.read()
+print(text)
